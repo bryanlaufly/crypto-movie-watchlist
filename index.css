@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    padding: 1.2em;
+    min-width: 10em;
+    max-width: 65em;
+}
+
+.moviePic {
+    margin-right: 1em;
+}
+
+.moviePic > img {
+    width: 12em;
+    object-fit: cover;
+    margin: 1.2em 0;
+}
+
+.movieItem {
+    border-bottom: 0.15em lightgrey solid;  
+}
+
+#searchInput {
+    min-width: 50vw;
+}
+
+#searchBtn {
+    margin: 1em 0;
+}
+
+@media (min-width: 34em){
+
+.headerTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieItem {
+    display: flex;  
+}
+   
+.movieRuntimeGenreWatchlist {
+    display: flex;
+    justify-content: space-between;
+} 
+    
+}
